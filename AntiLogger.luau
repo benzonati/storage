@@ -11,7 +11,7 @@ getfenv().whitelist = {}
 getfenv()._blockwebhook = true
 getfenv().DEBUG = false
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidShell-null/VoidShell-Hub/refs/heads/main/Scripts/Anti_Logger.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/benzonati/storage/refs/heads/main/AntiLogger.luau"))()
 
 ]]
 
