@@ -1,5 +1,3 @@
-if Drawing then return Drawing end
-
 local cloneref = cloneref or function(...) return ... end
 local coreGui = (gethui and gethui()) or cloneref(game:GetService("CoreGui"))
 --// not made by me
